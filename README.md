@@ -31,6 +31,17 @@ Steps to run :
 <br>
 <b>Note:</b> - Also add google-services.json at root folder. [ Same can be generated from Firebase Console ]
 
+<b>Firebase Analytics Added </b>
+<p>
+    To enable sending of DebugView data on a connected Android test device for a configured Firebase Analytics app, execute the following command:<br>
+      <b>adb shell setprop debug.firebase.analytics.app [your_app_package_name] </b>
+    <br><br>
+    This behavior persists until you explicitly disable it by executing the following command:<br>
+      <b>adb shell setprop debug.firebase.analytics.app .none.  </b>
+</p>
+
+
+
 
 <br><br><br>
 For more information , please visit : <br> https://github.com/dpa99c/cordova-plugin-firebasex or <br> https://www.npmjs.com/package/cordova-plugin-firebase
