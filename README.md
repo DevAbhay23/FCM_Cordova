@@ -29,7 +29,7 @@ Steps to run :
   <li>Run cordova build android</li>
 </ol>
 <br>
-<b>Note:</b> - Also add google-services.json at root folder. [ Same can be generated from Firebase Console ]
+<b>Note:</b> - Also add google-services.json at root folder. [ Same can be generated from Firebase Console ]  <br><br>
 
 <b>Firebase Analytics Added </b>
 <p>
