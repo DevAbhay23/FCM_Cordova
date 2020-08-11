@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UtilsProvider } from './providers/utils.service';
+import { AnalyticsProvider } from './providers/analytics.service';
+import { FirebaseProvider } from './providers/firebase-service';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,7 @@ import { UtilsProvider } from './providers/utils.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [UtilsProvider],
+  providers: [UtilsProvider, AnalyticsProvider, FirebaseProvider],
   bootstrap: [AppComponent],
   entryComponents: []
 })

@@ -24,10 +24,13 @@
     "cordova-android-support-gradle-release": "^3.0.1",
     "cordova-plugin-androidx": "^2.0.0",
     "cordova-plugin-androidx-adapter": "^1.1.1",
+    "cordova-plugin-enable-multidex": "^0.2.0",
     "cordova-plugin-firebase": "^2.0.5",
     "cordova-plugin-firebase-lib": "^5.1.1",
     "cordova-plugin-firebasex": "^10.1.2",
     "cordova-plugin-splashscreen": "^5.0.4",
+    "cordova-support-android-plugin": "^1.0.2",
+    "cordova-support-google-services": "^1.4.1",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
@@ -78,7 +81,8 @@
       "cordova-android-support-gradle-release": {
         "ANDROID_SUPPORT_VERSION": "27.+"
       },
-      "cordova-plugin-splashscreen": {}
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-enable-multidex": {}
     },
     "platforms": [
       "android"
