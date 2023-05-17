@@ -1,4 +1,5 @@
-# FCM_Cordova
+### FCM_Cordova
+
 This Application will show Firebase Cloud Notifications on Cordova/Angular Project.
 
 <b>Plugins Used : </b>
@@ -17,7 +18,7 @@ This Application will show Firebase Cloud Notifications on Cordova/Angular Proje
 <li> Typescript Version - 3.1.6 </li>
 </ul>
 
-Steps to run : 
+#### Steps to run : 
 <ol>
   <li>Clone the Project</li>
   <li>Run npm install</li>
